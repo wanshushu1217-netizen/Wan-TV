@@ -27,11 +27,14 @@ ADULT_WORDS = re.compile(
     r"(?i)(^|[\s._|/\\,;:()\[\]-])(adult|xxx|porn|erotic|18\+)(?=$|[\s._|/\\,;:()\[\]-])"
 )
 ATTR_RE = re.compile(r'([\w-]+)="([^"]*)"')
-FAVORITE_COUNTRIES = {"TW", "HK", "MO", "US", "GB", "UK"}
-FAVORITE_GROUPS = re.compile(
-    r"(?i)(taiwan|hong kong|macao|macau|united states|usa|united kingdom|britain|england|scotland|wales|northern ireland)"
+CHINA_SATELLITE = re.compile(
+    r"(?i)(卫视|衛視|satellite|hunan|zhejiang|jiangsu|dragon tv|beijing tv|anhui|guangdong|"
+    r"shandong|shenzhen|liaoning|heilongjiang|henan|hubei|jiangxi|sichuan|tianjin|hebei|"
+    r"guangxi|yunnan|guizhou|chongqing|shaanxi|gansu|qinghai|ningxia|xinjiang|xizang|"
+    r"inner mongolia|jilin|southeast tv|travel channel)"
 )
-FAVORITE_NAMES = re.compile(r"(?i)\b(BBC|CNN)\b")
+SPORTS_WORDS = re.compile(r"(?i)(sport|体育|體育|cctv\s*-?\s*5)")
+NEWS_WORDS = re.compile(r"(?i)(news|新闻|新聞|財經|财经|business|finance)")
 
 
 @dataclass
@@ -139,17 +142,31 @@ def render(entries: list[Entry]) -> str:
     return "\n".join(lines) + "\n"
 
 
-def is_favorite(entry: Entry) -> bool:
+def country_matches(entry: Entry, codes: set[str], names: tuple[str, ...]) -> bool:
     country_codes = {
         code.strip().upper()
         for code in re.split(r"[,;/ ]+", entry.attrs.get("tvg-country", ""))
         if code.strip()
     }
-    if country_codes & FAVORITE_COUNTRIES:
+    if country_codes & codes:
         return True
-    if FAVORITE_GROUPS.search(" ".join(entry.groups)):
-        return True
-    return bool(FAVORITE_NAMES.search(entry.name))
+    groups = " ".join(entry.groups).casefold()
+    return any(name.casefold() in groups for name in names)
+
+
+def favorite_group(entry: Entry) -> str | None:
+    groups_and_name = " ".join([entry.name, *entry.groups])
+    is_china = country_matches(entry, {"CN"}, ("Region · China", "China"))
+    is_taiwan = country_matches(entry, {"TW"}, ("Region · Taiwan", "Taiwan"))
+    is_hong_kong = country_matches(entry, {"HK"}, ("Region · Hong Kong", "Hong Kong"))
+
+    if is_china and (CHINA_SATELLITE.search(entry.name) or SPORTS_WORDS.search(groups_and_name)):
+        return "1 · 中国卫视与体育"
+    if is_taiwan and NEWS_WORDS.search(groups_and_name):
+        return "2 · 台湾新闻"
+    if is_hong_kong and NEWS_WORDS.search(groups_and_name):
+        return "3 · 香港新闻"
+    return None
 
 
 def atomic_write(path: Path, content: str) -> None:
@@ -178,7 +195,13 @@ def main() -> int:
         raise RuntimeError("all upstream playlists failed; existing output was left unchanged")
 
     result = build(all_entries)
-    favorites = [entry for entry in result if is_favorite(entry)]
+    favorites: list[Entry] = []
+    for entry in result:
+        group = favorite_group(entry)
+        if group:
+            favorites.append(
+                Entry(entry.name, entry.url, dict(entry.attrs), [group], entry.source_rank)
+            )
     atomic_write(OUTPUT, render(result))
     atomic_write(FAVORITES_OUTPUT, render(favorites))
     print(f"Wrote {len(result)} unique channels to {OUTPUT}", file=sys.stderr)
