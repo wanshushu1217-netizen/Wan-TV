@@ -1,0 +1,46 @@
+name: Update IPTV playlist
+
+on:
+  schedule:
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-iptv-playlist
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build playlist
+        run: python scripts/update_playlist.py
+
+      - name: Validate playlist
+        run: |
+          test "$(head -n 1 Wan-TV.m3u)" = "#EXTM3U"
+          test "$(grep -c '^#EXTINF:' Wan-TV.m3u)" -gt 0
+
+      - name: Commit changes
+        run: |
+          if git diff --quiet -- Wan-TV.m3u; then
+            echo "Playlist is unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Wan-TV.m3u
+          git commit -m "chore: update IPTV playlist"
+          git push
