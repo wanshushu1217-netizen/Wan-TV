@@ -10,6 +10,14 @@ https://raw.githubusercontent.com/wanshushu1217-netizen/Wan-TV/main/Wan-TV.m3u
 
 在 APTV 中新增远程 M3U 播放列表并粘贴上面的地址即可。仓库内文件会更新，但订阅 URL 不变。
 
+## 精简版（推荐）
+
+```text
+https://raw.githubusercontent.com/wanshushu1217-netizen/Wan-TV/main/Wan-TV-Favorites.m3u
+```
+
+精简版只保留港澳台、美国、英国以及 BBC/CNN 频道，适合日常在 APTV 中使用。台湾体育仅收录上游公开免费、可合法访问的频道或赛事直播；爱尔达、纬来、DAZN、博斯等付费频道不会加入来源不明的链接。
+
 ## 数据来源与处理方式
 
 本项目只聚合上游声明为公开可访问、免费使用的 IPTV 播放列表：
@@ -28,5 +36,6 @@ GitHub Actions 每天约在台北时间 12:17（UTC 04:17）运行，也可在 A
 ## 文件
 
 - `Wan-TV.m3u`：APTV 使用的最终播放列表
+- `Wan-TV-Favorites.m3u`：港澳台、美国、英国及 BBC/CNN 精简版
 - `scripts/update_playlist.py`：下载、过滤、整理和去重脚本
 - `.github/workflows/update-playlist.yml`：每日自动更新工作流
