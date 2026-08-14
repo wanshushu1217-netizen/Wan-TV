@@ -12,6 +12,7 @@ from pathlib import Path
 from urllib.parse import urlsplit, urlunsplit
 
 OUTPUT = Path(__file__).resolve().parents[1] / "Wan-TV.m3u"
+FAVORITES_OUTPUT = Path(__file__).resolve().parents[1] / "Wan-TV-Favorites.m3u"
 TIMEOUT = 45
 USER_AGENT = "Wan-TV/1.0 (+https://github.com/wanshushu1217-netizen/Wan-TV)"
 
@@ -26,6 +27,11 @@ ADULT_WORDS = re.compile(
     r"(?i)(^|[\s._|/\\,;:()\[\]-])(adult|xxx|porn|erotic|18\+)(?=$|[\s._|/\\,;:()\[\]-])"
 )
 ATTR_RE = re.compile(r'([\w-]+)="([^"]*)"')
+FAVORITE_COUNTRIES = {"TW", "HK", "MO", "US", "GB", "UK"}
+FAVORITE_GROUPS = re.compile(
+    r"(?i)(taiwan|hong kong|macao|macau|united states|usa|united kingdom|britain|england|scotland|wales|northern ireland)"
+)
+FAVORITE_NAMES = re.compile(r"(?i)\b(BBC|CNN)\b")
 
 
 @dataclass
@@ -133,6 +139,29 @@ def render(entries: list[Entry]) -> str:
     return "\n".join(lines) + "\n"
 
 
+def is_favorite(entry: Entry) -> bool:
+    country_codes = {
+        code.strip().upper()
+        for code in re.split(r"[,;/ ]+", entry.attrs.get("tvg-country", ""))
+        if code.strip()
+    }
+    if country_codes & FAVORITE_COUNTRIES:
+        return True
+    if FAVORITE_GROUPS.search(" ".join(entry.groups)):
+        return True
+    return bool(FAVORITE_NAMES.search(entry.name))
+
+
+def atomic_write(path: Path, content: str) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with tempfile.NamedTemporaryFile(
+        "w", encoding="utf-8", newline="\n", dir=path.parent, delete=False
+    ) as handle:
+        handle.write(content)
+        temporary = Path(handle.name)
+    temporary.replace(path)
+
+
 def main() -> int:
     all_entries: list[Entry] = []
     failures: list[str] = []
@@ -149,13 +178,11 @@ def main() -> int:
         raise RuntimeError("all upstream playlists failed; existing output was left unchanged")
 
     result = build(all_entries)
-    content = render(result)
-    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
-    with tempfile.NamedTemporaryFile("w", encoding="utf-8", newline="\n", dir=OUTPUT.parent, delete=False) as handle:
-        handle.write(content)
-        temporary = Path(handle.name)
-    temporary.replace(OUTPUT)
+    favorites = [entry for entry in result if is_favorite(entry)]
+    atomic_write(OUTPUT, render(result))
+    atomic_write(FAVORITES_OUTPUT, render(favorites))
     print(f"Wrote {len(result)} unique channels to {OUTPUT}", file=sys.stderr)
+    print(f"Wrote {len(favorites)} favorite channels to {FAVORITES_OUTPUT}", file=sys.stderr)
     if failures:
         print("Partial upstream failures: " + "; ".join(failures), file=sys.stderr)
     return 0
