@@ -16,7 +16,7 @@ https://raw.githubusercontent.com/wanshushu1217-netizen/Wan-TV/main/Wan-TV.m3u
 https://raw.githubusercontent.com/wanshushu1217-netizen/Wan-TV/main/Wan-TV-Favorites.m3u
 ```
 
-精简版只保留港澳台、美国、英国以及 BBC/CNN 频道，适合日常在 APTV 中使用。台湾体育仅收录上游公开免费、可合法访问的频道或赛事直播；爱尔达、纬来、DAZN、博斯等付费频道不会加入来源不明的链接。
+精简版按三个分组整理：中国大陆卫视与体育、台湾新闻、香港新闻。仅收录上游公开免费、可合法访问的频道；付费频道不会加入来源不明的链接。
 
 ## 数据来源与处理方式
 
@@ -36,6 +36,6 @@ GitHub Actions 每天约在台北时间 12:17（UTC 04:17）运行，也可在 A
 ## 文件
 
 - `Wan-TV.m3u`：APTV 使用的最终播放列表
-- `Wan-TV-Favorites.m3u`：港澳台、美国、英国及 BBC/CNN 精简版
+- `Wan-TV-Favorites.m3u`：中国卫视与体育、台湾新闻、香港新闻精简版
 - `scripts/update_playlist.py`：下载、过滤、整理和去重脚本
 - `.github/workflows/update-playlist.yml`：每日自动更新工作流
