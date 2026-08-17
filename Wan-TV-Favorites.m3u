@@ -111,11 +111,11 @@ http://seb.sason.top/sc/dsxw_fhd.m3u8
 http://seb.sason.top/sc/sllive_fhd.m3u8
 #EXTINF:-1 tvg-id="TVBSNews.tw@SD" tvg-logo="https://i.imgur.com/171lwfg.png" group-title="2 · 台湾新闻",TVBS News (TVBS新聞台) [Geo-blocked]
 http://seb.sason.top/sc/tvbsxw_fhd.m3u8
-#EXTINF:-1 tvg-id="CTVNewsChannel.tw" tvg-name="CTV News Channel (中視新聞台) Ⓨ" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/6/67/CTV_News_logo.png" tvg-country="TW" group-title="2 · 台湾新闻" tvg-chno="2",CTV News Channel (中視新聞台) Ⓨ
+#EXTINF:-1 tvg-id="CTVNewsChannel.tw" tvg-name="CTV News Channel (中視新聞台)" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/6/67/CTV_News_logo.png" tvg-country="TW" group-title="2 · 台湾新闻" tvg-chno="2",CTV News Channel (中視新聞台) Ⓨ
 https://www.youtube.com/watch?v=TCnaIE_SAtM
-#EXTINF:-1 tvg-id="FTVNews.tw" tvg-name="FTV News (民視新聞台) Ⓨ" tvg-logo="https://i.imgur.com/j9Gebr5.png" tvg-country="TW" group-title="2 · 台湾新闻" tvg-chno="10",FTV News (民視新聞台) Ⓨ
+#EXTINF:-1 tvg-id="FTVNews.tw" tvg-name="FTV News (民視新聞台)" tvg-logo="https://i.imgur.com/j9Gebr5.png" tvg-country="TW" group-title="2 · 台湾新闻" tvg-chno="10",FTV News (民視新聞台) Ⓨ
 https://www.youtube.com/watch?v=ylYJSBUgaMA
 #EXTINF:-1 tvg-id="FTVTaiwan.tw" tvg-name="FTV Taiwan (民視台灣台)" tvg-logo="https://i.imgur.com/p108I5g.png" tvg-country="TW" group-title="2 · 台湾新闻" tvg-chno="11",FTV Taiwan (民視台灣台)
 http://seb.sason.top/ptv/ftv.php?id=tw
-#EXTINF:-1 tvg-id="TTVNews.tw" tvg-name="TTV News (台視新聞台) Ⓨ" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/3/3f/TTV_News_Channel_with_HD_2016.png" tvg-country="TW" group-title="2 · 台湾新闻" tvg-chno="16",TTV News (台視新聞台) Ⓨ
+#EXTINF:-1 tvg-id="TTVNews.tw" tvg-name="TTV News (台視新聞台)" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/3/3f/TTV_News_Channel_with_HD_2016.png" tvg-country="TW" group-title="2 · 台湾新闻" tvg-chno="16",TTV News (台視新聞台) Ⓨ
 https://www.youtube.com/watch?v=xL0ch83RAK8
