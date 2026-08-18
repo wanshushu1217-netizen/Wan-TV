@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="CCTV16.cn" tvg-name="CCTV-16 奥林匹克" tvg-logo="https://i.imgur.com/gaA4Cjy.png" tvg-country="CN" group-title="1 · 中国卫视与体育" tvg-chno="19",CCTV-16 奥林匹克
+http://74.91.26.218:82/live/cctv16hd.m3u8
 #EXTINF:-1 tvg-id="CCTV5.cn" tvg-name="CCTV-5 体育" tvg-logo="https://i.imgur.com/Mut2omN.png" tvg-country="CN" group-title="1 · 中国卫视与体育" tvg-chno="7",CCTV-5 体育
 https://node1.olelive.com:6443/live/CCTV5HD/hls.m3u8
 #EXTINF:-1 tvg-id="CCTV5Plus.cn" tvg-name="CCTV-5+ 体育赛事" tvg-logo="https://i.imgur.com/UNjmQVS.png" tvg-country="CN" group-title="1 · 中国卫视与体育" tvg-chno="8",CCTV-5+ 体育赛事
@@ -11,8 +13,6 @@ https://tvp22.sky4k.top/index1.php
 https://restream.pdtvhd.com/memfs/c1cd2ed0-3b2b-4c25-af98-a7fb0b1eb130.m3u8
 #EXTINF:-1 tvg-id="BeijingSatelliteTV.cn@HD" tvg-logo="https://i.imgur.com/vsktAez.png" group-title="1 · 中国卫视与体育",BRTV 北京卫视 (1080p)
 http://go.bkpcp.top/mg/bjws
-#EXTINF:-1 tvg-id="CCTV16.cn@HD" tvg-logo="https://i.imgur.com/ZzV6JQp.png" group-title="1 · 中国卫视与体育",CCTV-16 (1080p)
-http://74.91.26.218:82/live/cctv16hd.m3u8
 #EXTINF:-1 tvg-id="CCTV5Plus.cn@SD" tvg-logo="https://i.imgur.com/OK8mdJV.png" group-title="1 · 中国卫视与体育",CCTV-5+
 https://myip.pdtvhd.com/Sports/streams/CCTV5pul.m3u8
 #EXTINF:-1 tvg-id="CCTVBilliards.cn@HD" tvg-logo="https://i.imgur.com/WK3keM9.png" group-title="1 · 中国卫视与体育",CCTV-Billiards (1080p)
@@ -118,4 +118,4 @@ https://www.youtube.com/watch?v=ylYJSBUgaMA
 #EXTINF:-1 tvg-id="FTVTaiwan.tw" tvg-name="FTV Taiwan (民視台灣台)" tvg-logo="https://i.imgur.com/p108I5g.png" tvg-country="TW" group-title="2 · 台湾新闻" tvg-chno="11",FTV Taiwan (民視台灣台)
 http://seb.sason.top/ptv/ftv.php?id=tw
 #EXTINF:-1 tvg-id="TTVNews.tw" tvg-name="TTV News (台視新聞台)" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/3/3f/TTV_News_Channel_with_HD_2016.png" tvg-country="TW" group-title="2 · 台湾新闻" tvg-chno="16",TTV News (台視新聞台) Ⓨ
-https://www.youtube.com/watch?v=xL0ch83RAK8
+https://www.youtube.com/@TTV_NEWS/live
