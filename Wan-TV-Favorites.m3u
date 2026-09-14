@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="CCTV16.cn" tvg-name="CCTV-16 奥林匹克" tvg-logo="https://i.imgur.com/gaA4Cjy.png" tvg-country="CN" group-title="1 · 中国卫视与体育" tvg-chno="17",CCTV-16 奥林匹克
+http://74.91.26.218:82/live/cctv16hd.m3u8
 #EXTINF:-1 tvg-id="TVBFinanceSportsInformationChannel.hk" tvg-name="TVB Finance (Sports & Information Channel)" tvg-logo="https://i.imgur.com/Fkkp7x7.png" tvg-country="HK" group-title="3 · 香港新闻" tvg-chno="84",TVB Finance (Sports & Information Channel)
 https://tvp22.sky4k.top/index2.php
 #EXTINF:-1 tvg-id="TVBNewsChannel.hk" tvg-name="TVB News Channel" tvg-logo="https://i.imgur.com/Gwij0Fj.png" tvg-country="HK" group-title="3 · 香港新闻" tvg-chno="83",TVB News Channel
@@ -11,6 +13,12 @@ http://go.bkpcp.top/mg/bjws
 http://ivi.bupt.edu.cn/hls/btv1.m3u8
 #EXTINF:-1 tvg-id="CCTV5Plus.cn@SD" tvg-logo="https://i.imgur.com/OK8mdJV.png" group-title="1 · 中国卫视与体育",CCTV-5+
 https://myip.pdtvhd.com/Sports/streams/CCTV5pul.m3u8
+#EXTINF:-1 tvg-id="CCTVBilliards.cn@HD" tvg-logo="https://i.imgur.com/WK3keM9.png" group-title="1 · 中国卫视与体育",CCTV-Billiards (1080p)
+http://38.75.136.137:98/gslb/dsdqpub/ystq.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="CCTVGolfTennis.cn@HD" tvg-logo="https://i.imgur.com/iqJJTmH.png" group-title="1 · 中国卫视与体育",CCTV-Golf & Tennis (1080p)
+http://38.75.136.137:98/gslb/dsdqpub/gefwq.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="CCTVStormFootball.cn@HD" tvg-logo="https://i.imgur.com/Fy6HkX0.png" group-title="1 · 中国卫视与体育",CCTV-Storm Football (1080p)
+http://38.75.136.137:98/gslb/dsdqpub/fyzq.m3u8?auth=testpub
 #EXTINF:-1 tvg-id="DragonTVInternational.cn@SD" tvg-logo="https://i.imgur.com/WqM6xnF.png" group-title="1 · 中国卫视与体育",Dragon TV International
 https://restream.pdtvhd.com/memfs/0b1b95c9-3543-4af9-9fdb-cf45f1602f17.m3u8
 #EXTINF:-1 tvg-id="GuangdongSatelliteTV.cn@SD" tvg-logo="https://parco-zh.github.io/demo/guangdong.jpg" group-title="1 · 中国卫视与体育",Guangdong Satellite TV
@@ -87,6 +95,10 @@ http://39.134.39.37/PLTV/88888888/224/3221226209/index.m3u8
 http://39.134.115.163:8080/PLTV/88888910/224/3221225727/index.m3u8
 #EXTINF:-1 tvg-id="HongKongInternationalBusinessChannel.hk@SD" tvg-logo="https://i.imgur.com/jaIdkbz.png" group-title="3 · 香港新闻",HOY International Business Channel (1080p) [Geo-blocked]
 https://hoytv-live-stream.hoy.tv/ch76/index-fhd.m3u8
+#EXTINF:-1 tvg-id="RTHKTV35.hk@HD" tvg-logo="https://i.imgur.com/FQmNKDS.png" group-title="3 · 香港新闻",RTHK TV 35 (港台電視35) (1080p) [Geo-blocked]
+https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/master.m3u8
+#EXTINF:-1 tvg-id="PhoenixInfoNewsChannel.hk@SD" tvg-logo="https://i.imgur.com/mt4h3VO.png" group-title="3 · 香港新闻",凤凰资讯 (720p)
+http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221226923/index.m3u8
 #EXTINF:-1 tvg-id="BSTV.hk@SD" tvg-logo="https://i.imgur.com/GVYSSgm.png" group-title="3 · 香港新闻",耀才財經台 (576p)
 http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8
 #EXTINF:-1 tvg-id="CTSNews.tw@SD" tvg-logo="https://i.imgur.com/V1EVtRm.png" group-title="2 · 台湾新闻",CTS News (華視新聞資訊) [Geo-blocked]
@@ -103,5 +115,7 @@ http://seb.sason.top/sc/tvbsxw_fhd.m3u8
 https://www.youtube.com/watch?v=TCnaIE_SAtM
 #EXTINF:-1 tvg-id="FTVNews.tw" tvg-name="FTV News (民視新聞台)" tvg-logo="https://i.imgur.com/j9Gebr5.png" tvg-country="TW" group-title="2 · 台湾新闻" tvg-chno="10",FTV News (民視新聞台) Ⓨ
 https://www.youtube.com/watch?v=ylYJSBUgaMA
+#EXTINF:-1 tvg-id="FTVTaiwan.tw" tvg-name="FTV Taiwan (民視台灣台)" tvg-logo="https://i.imgur.com/p108I5g.png" tvg-country="TW" group-title="2 · 台湾新闻" tvg-chno="11",FTV Taiwan (民視台灣台)
+http://seb.sason.top/ptv/ftv.php?id=tw
 #EXTINF:-1 tvg-id="TTVNews.tw" tvg-name="TTV News (台視新聞台)" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/3/3f/TTV_News_Channel_with_HD_2016.png" tvg-country="TW" group-title="2 · 台湾新闻" tvg-chno="16",TTV News (台視新聞台) Ⓨ
 https://www.youtube.com/@TTV_NEWS/live
