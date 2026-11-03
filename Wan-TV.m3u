@@ -3979,11 +3979,11 @@ https://barinaslive1.boldmss.com/ESPN_2/ESPN_2.isml/ESPN_2.m3u8
 https://barinaslive1.boldmss.com/ESPN_3/ESPN_3.isml/ESPN_3.m3u8
 #EXTINF:-1 tvg-id="ESPN4LatinAmerica.us@South" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/ESPN_4_logo.svg/960px-ESPN_4_logo.svg.png" group-title="Region · Bolivia / Region · Colombia / Region · Ecuador / Region · Paraguay / Region · Peru / Region · Uruguay / Region · Venezuela / Region · International / Language · Spanish / Type · Sports",ESPN 4 Latin America (1080p)
 https://barinaslive1.boldmss.com/ESPN_4/ESPN_4.isml/ESPN_4.m3u8
-#EXTINF:-1 tvg-id="ESPN5LatinAmerica.us@South" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png" group-title="Region · Bolivia / Region · Colombia / Region · Ecuador / Region · Paraguay / Region · Peru / Region · Uruguay / Region · Venezuela / Region · International / Language · Spanish / Type · Sports",ESPN 5 Latin America (1080p)
+#EXTINF:-1 tvg-id="ESPN5LatinAmerica.us@South" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/ESPN_5_logo.svg/960px-ESPN_5_logo.svg.png" group-title="Region · Bolivia / Region · Colombia / Region · Ecuador / Region · Paraguay / Region · Peru / Region · Uruguay / Region · Venezuela / Region · International / Language · Spanish / Type · Sports",ESPN 5 Latin America (1080p)
 https://barinaslive1.boldmss.com/ESPN_5/ESPN_5.isml/ESPN_5.m3u8
-#EXTINF:-1 tvg-id="ESPN6LatinAmerica.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png" group-title="Region · Bolivia / Region · Colombia / Region · Dominican Republic / Region · Ecuador / Region · Paraguay / Region · Peru / Region · Uruguay / Region · Venezuela / Region · International / Language · Spanish / Type · Sports",ESPN 6 Latin America (1080p)
+#EXTINF:-1 tvg-id="ESPN6LatinAmerica.us@SD" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/ESPN_6_logo.svg/960px-ESPN_6_logo.svg.png" group-title="Region · Bolivia / Region · Colombia / Region · Dominican Republic / Region · Ecuador / Region · Paraguay / Region · Peru / Region · Uruguay / Region · Venezuela / Region · International / Language · Spanish / Type · Sports",ESPN 6 Latin America (1080p)
 https://barinaslive1.boldmss.com/ESPN_6/ESPN_6.isml/ESPN_6.m3u8
-#EXTINF:-1 tvg-id="ESPN7LatinAmerica.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png" group-title="Region · Bolivia / Region · Colombia / Region · Ecuador / Region · Paraguay / Region · Peru / Region · Uruguay / Region · Venezuela / Region · International / Language · Spanish / Type · Sports",ESPN 7 Latin America (1080p)
+#EXTINF:-1 tvg-id="ESPN7LatinAmerica.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/ESPN_7_logo.svg/960px-ESPN_7_logo.svg.png" group-title="Region · Bolivia / Region · Colombia / Region · Ecuador / Region · Paraguay / Region · Peru / Region · Uruguay / Region · Venezuela / Region · International / Language · Spanish / Type · Sports",ESPN 7 Latin America (1080p)
 https://barinaslive1.boldmss.com/ESPN_7/ESPN_7.isml/ESPN_7.m3u8
 #EXTINF:-1 tvg-id="ESPNLatinAmerica.us@South" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png" group-title="Region · Bolivia / Region · Paraguay / Region · Peru / Region · Uruguay / Region · International / Language · Spanish / Type · Sports",ESPN Latin America (1080p)
 https://barinaslive1.boldmss.com/ESPN/ESPN.isml/ESPN.m3u8
@@ -4939,10 +4939,6 @@ http://46.249.95.140:8081/hls/data.m3u8
 http://78.108.244.134:8899/ekids
 #EXTINF:-1 tvg-id="Eurocom.bg@SD" group-title="Region · Bulgaria / Language · Bulgarian / Type · General",Eurocom (360p)
 https://live.ecomservice.bg/hls/stream.m3u8
-#EXTINF:-1 tvg-id="FILMBOXPlusLoveCrime.pl@Bulgaria" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Blove-and-crime.png" group-title="Region · Bulgaria / Language · Bulgarian / Type · Movies",FILMBOX+ Love & Crime Bulgaria (720p)
-http://hls127.freeott.top:8080/BG_FilmBox_Stars_HD/video.m3u8
-#EXTINF:-1 tvg-id="FILMBOXPlusOne.pl@Bulgaria" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bone.png" group-title="Region · Bulgaria / Language · Bulgarian / Type · Movies",FILMBOX+ One Bulgaria (576p)
-http://hls127.freeott.top:8080/BG_Filmbox/video.m3u8
 #EXTINF:-1 tvg-id="HopeChannelBulgaria.bg@SD" tvg-logo="https://i.imgur.com/bxzeEML.png" group-title="Region · Bulgaria / Language · Bulgarian / Type · Religious",Hope Channel Bulgaria
 https://hc1.hopetv.bg/live/hopetv_all.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ID.bg@SD" group-title="Region · Bulgaria / Language · Bulgarian / Type · Documentary",ID
@@ -6169,8 +6165,8 @@ http://120.70.60.179:9901/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
 http://120.70.60.179:9901/tsfile/live/1002_1.m3u8?authid=0&key=txiptv&playlive=1
 #EXTINF:-1 tvg-id="XizangTVChinese.cn@SD" tvg-logo="https://i.imgur.com/V0v3ST5.png" group-title="Region · China / Language · Chinese / Type · Undefined",Xizang TV Chinese
 https://pili-live-hls-zdzz-tv.zzxwcm.cn/zdzz-tv/nqzh.m3u8
-#EXTINF:-1 tvg-id="XizangTVTibetan.cn@SD" tvg-logo="https://i.imgur.com/NtvfnVV.png" group-title="Region · China / Language · Tibetan / Type · Undefined",Xizang TV Tibetan (720p) [Not 24/7]
-http://php.jdshipin.com:8880/xztv.php?id=zy
+#EXTINF:-1 tvg-id="XizangTVTibetan.cn@SD" tvg-logo="https://i.imgur.com/NtvfnVV.png" group-title="Region · China / Language · Tibetan / Type · Undefined",Xizang TV Tibetan
+https://live.vtibet.cn/live/ZYWS20261016.stream.m3u8
 #EXTINF:-1 tvg-id="XuzhouEconomicLifeChannel.cn@SD" group-title="Region · China / Language · Chinese / Type · Business",Xuzhou Economic Life Channel (1080p)
 http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221225947/index.m3u8
 #EXTINF:-1 tvg-id="YanbianSatelliteTV.cn@SD" tvg-logo="https://i.imgur.com/UKKsnhD.png" group-title="Region · China / Language · Chinese / Type · Undefined",Yanbian Satellite TV (576p)
@@ -6417,6 +6413,8 @@ https://cloud6.livescast.com:3900/live/tevecolombialive.m3u8
 http://181.78.211.244:8005/play/a09g/index.m3u8
 #EXTINF:-1 tvg-id="TNTNovelas.us@Colombia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/TNT_Novelas_2025.svg/1920px-TNT_Novelas_2025.svg.png" group-title="Region · Colombia / Language · Spanish / Type · Series",TNT Novelas Colombia (1080p)
 http://190.61.47.54:8000/play/a02f/index.m3u8
+#EXTINF:-1 tvg-id="TNTNovelas.us@ColombiaHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/TNT_Novelas_2025.svg/1920px-TNT_Novelas_2025.svg.png" group-title="Region · Colombia / Language · Spanish / Type · Series",TNT Novelas ColombiaHD (1080p)
+http://181.78.79.131:8000/play/a0na
 #EXTINF:-1 tvg-id="Trece.co@SD" tvg-logo="https://i.imgur.com/jsuXXIg.png" group-title="Region · Colombia / Language · Spanish / Type · General",Trece (Colombia) (1080p)
 http://190.60.46.228:8888/play/a030/index.m3u8
 #EXTINF:-1 tvg-id="TuUniversoTV.co@SD" tvg-logo="https://i.imgur.com/e6esjLZ.jpg" group-title="Region · Colombia / Language · Spanish / Type · Religious",Tu Universo TV (720p)
@@ -6665,6 +6663,10 @@ http://88.212.15.50/live/test_discovery_hd_hevc/playlist.m3u8
 http://88.212.15.50/live/test_disney/playlist.m3u8
 #EXTINF:-1 tvg-id="ElektrikaTV.cz@SD" tvg-logo="https://i.imgur.com/OLd5od5.png" group-title="Region · Czech Republic / Language · Czech / Type · Undefined",Elektrika TV (1080p)
 https://rtmp.elektrika.cz/live/myStream.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="Eurosport1.fr@Czechia" tvg-logo="https://i.imgur.com/olQJgm7.png" group-title="Region · Czech Republic / Region · Slovakia / Region · International / Language · Czech / Type · Sports",Eurosport 1 Czechia
+http://88.212.7.14/live/test_esp1_hevc_tizen/playlist.m3u8
+#EXTINF:-1 tvg-id="Eurosport2.fr@Czechia" tvg-logo="https://i.imgur.com/f56dHgR.png" group-title="Region · Czech Republic / Region · Slovakia / Region · International / Language · Czech / Type · Sports",Eurosport 2 Czechia
+http://88.212.7.14/live/test_esp2_hevc_tizen/playlist.m3u8
 #EXTINF:-1 tvg-id="FoodNetwork.cz@SD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/75/FN-Logo.svg/revision/latest?cb=20171221110545" group-title="Region · Czech Republic / Language · Czech / Type · Undefined",Food Network (Czech Republic)
 http://88.212.15.50/live/test_food_network_atk_tv/playlist.m3u8
 #EXTINF:-1 tvg-id="GolfChannel.cz@SD" tvg-logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/golfchannel.png" group-title="Region · Czech Republic / Language · Czech / Type · Sports",Golf Channel
@@ -6685,6 +6687,10 @@ http://88.212.15.50/live/test_id_hevc_atktv/playlist.m3u8
 https://stream.jc1.cz/hls/jc1.m3u8
 #EXTINF:-1 tvg-id="Jihoceskatelevize.cz@SD" tvg-logo="https://i.imgur.com/Hi8hZzl.png" group-title="Region · Czech Republic / Language · Czech / Type · General",Jihoceska televize (1080p)
 https://vysilani.zaktv.cz/broadcast/hls/jtv/index.m3u8
+#EXTINF:-1 tvg-id="LoveNature.ca@4KCzechia" tvg-logo="https://tv.lovenature.com/wp-content/uploads/2024/10/LoveNature2024_Logo_full_colour-copy.png" group-title="Region · Czech Republic / Region · Slovakia / Region · International / Language · Czech / Type · Outdoor",Love Nature 4K Czechia
+http://88.212.15.50/live/test_love_nature_uhd_atktv/playlist.m3u8
+#EXTINF:-1 tvg-id="LoveNature.ca@Czechia" tvg-logo="https://tv.lovenature.com/wp-content/uploads/2024/10/LoveNature2024_Logo_full_colour-copy.png" group-title="Region · Czech Republic / Region · Slovakia / Region · International / Language · Czech / Type · Outdoor",Love Nature Czechia
+http://88.212.15.50/live/test_lovenature/playlist.m3u8
 #EXTINF:-1 tvg-id="MinimaxCEE.cz@SD" tvg-logo="https://i.imgur.com/WWOlm1x.png" group-title="Region · Czech Republic / Region · Slovakia / Region · International / Language · English / Type · Kids",Minimax CEE (576p)
 http://88.212.15.50/live/test_minimax/playlist.m3u8
 #EXTINF:-1 tvg-id="MnauTV.cz@SD" tvg-logo="https://i.imgur.com/deVHJKS.png" group-title="Region · Czech Republic / Language · Czech / Type · Undefined",Mnau TV (1080p)
@@ -6739,6 +6745,8 @@ http://88.212.15.50/live/test_seznam_hevc_25p/playlist.m3u8
 http://88.212.15.50/live/test_tlc_1200_atk/playlist.m3u8
 #EXTINF:-1 tvg-id="TravelChannel.cz@SD" tvg-logo="https://static.wikia.nocookie.net/dreamlogos/images/e/e4/Travel_Channel_International_%282017%29.svg/revision/latest?cb=20250820081027" group-title="Region · Czech Republic / Language · Czech / Type · Undefined",Travel Channel (Czech Republic)
 http://88.212.15.50/live/test_travel_channel_hd_hevc/playlist.m3u8
+#EXTINF:-1 tvg-id="Travelxp.in@Czechia" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TRAVELXP/images/LOGO_HD/image.png" group-title="Region · Czech Republic / Region · Slovakia / Region · International / Language · Czech / Type · Travel",Travelxp Czechia
+http://88.212.7.14/live/travel_xp/index.m3u8
 #EXTINF:-1 tvg-id="TVBrno1.cz@SD" tvg-logo="https://i.imgur.com/8Xm3WSn.png" group-title="Region · Czech Republic / Language · Czech / Type · General",TV Brno 1 (1080p)
 https://stream.polar.cz/tvbrno1/tvbrno1live-1/playlist.m3u8
 #EXTINF:-1 tvg-id="TVNoe.cz@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Noe-logo-2016.png/500px-Noe-logo-2016.png" group-title="Region · Czech Republic / Language · Czech / Type · Undefined",TV Noe (720p) [Geo-blocked]
@@ -8415,8 +8423,6 @@ https://muenchentv.iptv-playoutcenter.de/muenchentv/muenchentv.stream_1/playlist
 https://jmp2.uk/plu-60080e8a4bf36000076a81b1.m3u8
 #EXTINF:-1 tvg-id="Naruto.us@Germany" tvg-logo="https://i.imgur.com/M8X3Kvc.png" group-title="Region · Germany / Language · German / Type · Animation",Naruto Germany (720p)
 https://jmp2.uk/plu-65d5fc39a25d5e00082895c4.m3u8
-#EXTINF:-1 tvg-id="NashKinomir.de@SD" tvg-logo="https://i.imgur.com/7M1J42A.png" group-title="Region · Germany / Language · Russian / Type · Movies",Nash Kinomir (576p)
-http://hls127.freeott.top:8080/Nash_kinomir/video.m3u8
 #EXTINF:-1 tvg-id="NiederbayernTV.de@SD" tvg-logo="https://i.imgur.com/9uaMgTk.png" group-title="Region · Germany / Language · German / Type · General",Niederbayern TV (720p)
 https://stream03.welocal.stream/stream/sat-nby/ngrp:sat-nby.stream_all/index.m3u8
 #EXTINF:-1 tvg-id="NiederbayernTVDeggendorfStraubing.de@SD" tvg-logo="https://i.imgur.com/mAaIh3C.png" group-title="Region · Germany / Language · German / Type · General",Niederbayern TV Deggendorf & Straubing (1080p)
@@ -8709,10 +8715,6 @@ https://gra1.crystalweb.net:1936/epilogestv/epilogestv/playlist.m3u8
 https://ert-ucdn.broadpeak-aas.com/bpk-tv/ERTCosmos/default/index.m3u8
 #EXTINF:-1 tvg-id="ERTNews.gr@HD" tvg-logo="https://i.imgur.com/HXbsPfB.png" group-title="Region · Greece / Language · Greek / Type · News",ERT News HD (1080p)
 https://ert-ucdn.broadpeak-aas.com/bpk-tv/ERTNews/default/index.m3u8
-#EXTINF:-1 tvg-id="ERTSports1.gr@HD" tvg-logo="https://i.imgur.com/EsczO2H.png" group-title="Region · Greece / Language · Greek / Type · Sports",ERT Sports 1 (1080p)
-http://hbbtvapp.ert.gr/stream.php/v/vid_ertsports_mpeg.2ts
-#EXTINF:-1 tvg-id="ERTSports2.gr@HD" tvg-logo="https://i.imgur.com/b2SNQPi.png" group-title="Region · Greece / Language · Greek / Type · Sports",ERT Sports 2 (1080p)
-http://hbbtvapp.ert.gr/stream.php/v/vid_ertplay2_mpeg.2ts
 #EXTINF:-1 tvg-id="ERT3.gr@SD" tvg-logo="https://i.imgur.com/f2l9bDR.png" group-title="Region · Greece / Language · Greek / Type · Entertainment",ERT3 (1080p)
 https://ert-ucdn.broadpeak-aas.com/bpk-tv/ERT3/default/index.m3u8
 #EXTINF:-1 tvg-id="EuroTV.gr@SD" tvg-logo="https://www.eurotv.gr/wp-content/uploads/2018/03/ima-euro-channel-190-x-400.png" group-title="Region · Greece / Language · Greek / Type · News",Euro TV (Greece) (432p)
@@ -9175,6 +9177,8 @@ https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/master.m3u8
 https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/master.m3u8
 #EXTINF:-1 tvg-id="RTHKTV35.hk@HD" tvg-logo="https://i.imgur.com/FQmNKDS.png" group-title="Region · Hong Kong / Language · English / Type · News",RTHK TV 35 (1080p) [Geo-blocked]
 https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/master.m3u8
+#EXTINF:-1 tvg-id="ViuTV.hk@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/ViuTV_logo.svg/960px-ViuTV_logo.svg.png" group-title="Region · Hong Kong / Language · Chinese / Language · Yue Chinese / Type · Undefined",ViuTV (1080i)
+http://php.jdshipin.com/TVOD/iptv.php?id=viutv
 #EXTINF:-1 tvg-id="AlfoldTV.hu@SD" tvg-logo="https://i.imgur.com/W6jg8iM.png" group-title="Region · Hungary / Language · Hungarian / Type · Entertainment",Alfold TV (1080p)
 https://cloudfront41.lexanetwork.com:1344/relay01/livestream006.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="AnimalPlanet.hu@SD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/30/Animal_Planet_2018_II.svg/revision/latest?cb=20191206182106" group-title="Region · Hungary / Language · Hungarian / Type · Undefined",Animal Planet (Hungary)
@@ -11326,7 +11330,7 @@ http://88.212.15.50/live/test_cinemax2_hd_hevc/playlist.m3u8
 #EXTINF:-1 tvg-id="CinemaxAsia.sg@SD" tvg-logo="https://i.imgur.com/c8crJfA.png" group-title="Region · International / Language · English / Type · Movies",Cinemax Asia (720p) [Geo-blocked]
 https://tinyurl.com/44efw2rx
 #EXTINF:-1 tvg-id="CinemaxAsia.sg@HD" tvg-logo="https://i.imgur.com/c8crJfA.png" group-title="Region · International / Language · English / Type · Movies",Cinemax Asia HD (1080p)
-http://125.227.210.55:1001/VideoInput/play.ts
+http://202.150.165.66:8088/play/104-Cinemax/index.m3u8
 #EXTINF:-1 tvg-id="CinemaxLatinAmerica.us@SD" tvg-logo="https://i.imgur.com/cZWoJWD.png" group-title="Region · International / Language · Spanish / Type · Movies",Cinemax Latin America (720p)
 https://streaming.onnethn.com/CINEMAX/playlist.m3u8
 #EXTINF:-1 tvg-id="CinemaxLatinAmerica.us@HD" tvg-logo="https://i.imgur.com/cZWoJWD.png" group-title="Region · International / Language · Spanish / Type · Movies",Cinemax Latin America HD (1080p)
@@ -11885,6 +11889,8 @@ https://cdn10jtedge.indihometv.com/atm/DASH/thrill/manifest.mpd
 http://209.14.115.253:8081/TELENOVELAS/index.m3u8
 #EXTINF:-1 tvg-id="TOIGlobal.in@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/npnhm84gz9.png" group-title="Region · International / Language · English / Type · News",TOI Global (1080p)
 https://live.sli.ke/live/npnhm84gz9/master.m3u8
+#EXTINF:-1 tvg-id="Tooncast.us@Panregional" tvg-logo="https://i.imgur.com/3yXRbQy.png" group-title="Region · International / Language · English / Language · Portuguese / Language · Spanish / Type · Animation / Type · Kids",Tooncast (1080p)
+http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/69.m3u8
 #EXTINF:-1 tvg-id="TraceGospel.fr@NigeriaandEastAfrica" tvg-logo="https://i.imgur.com/X0UmU3K.png" group-title="Region · International / Language · English / Type · Music / Type · Religious",Trace Gospel Nigeria and East Africa (1080p)
 https://channels.trace.plus/Traceprod/GOSPEL_ROA_hd/index.m3u8
 #EXTINF:-1 tvg-id="TraceGospel.fr@SouthernAfrica" tvg-logo="https://i.imgur.com/X0UmU3K.png" group-title="Region · International / Language · French / Type · Music / Type · Religious",Trace Gospel Southern Africa (1080p)
@@ -12589,6 +12595,8 @@ https://jmp2.uk/plu-65cb78b83a116800079e2e35.m3u8
 https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(b6)/index.m3u8
 #EXTINF:-1 tvg-id="ClassCNBC.it@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Class_CNBC_2026.svg/960px-Class_CNBC_2026.svg.png" group-title="Region · Italy / Language · Italian / Type · Business",Class CNBC (1080p)
 https://www.dailymotion.com/cdn/live/video/x91c8ww.m3u8?sec=D9OwEfHs-e7O6pQ-qlnROg
+#EXTINF:-1 tvg-id="ClassTVModa.it@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Class-tv-moda.png/960px-Class-tv-moda.png" group-title="Region · Italy / Language · Italian / Type · Lifestyle",Class TV Moda (1080p)
+https://www.dailymotion.com/cdn/live/video/x98rt88.m3u8?sec=3FZxZQeceI08NWbQwAxAKdpdnH8gYPtFSg2hr2m8v11-0gQsz2FldP--C6DTACA-
 #EXTINF:-1 tvg-id="ComedyCentral.it@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png" group-title="Region · Italy / Language · Italian / Type · Comedy",Comedy Central (Italy) (720p)
 http://team-tv.co:81/comedy/index.m3u8
 #EXTINF:-1 tvg-id="CompanyTV.it@SD" tvg-logo="https://i.imgur.com/ccdwsWj.png" group-title="Region · Italy / Language · Italian / Type · Music",Company TV (720p)
@@ -13481,6 +13489,8 @@ http://209.14.115.253:8081/azteca-deportes/index.m3u8
 https://azt-mun.otteravision.com/azt/mun/mun.m3u8
 #EXTINF:-1 tvg-id="AztecaUno.mx@SD" tvg-logo="https://i.imgur.com/rRxgBtI.png" group-title="Region · Mexico / Language · Spanish / Type · General",Azteca Uno (1080p)
 http://38.44.109.41:8003/play/a033/index.m3u8
+#EXTINF:-1 tvg-id="AztecaUno.mx@Plus1" tvg-logo="https://i.imgur.com/rRxgBtI.png" group-title="Region · Mexico / Language · Spanish / Type · General",Azteca Uno +1 (720p)
+https://azt-oo.otteravision.com/out/v1/da53d7d388be437e92bf8f464018eb48/index.m3u8
 #EXTINF:-1 tvg-id="B15Fresnillo.mx@SD" tvg-logo="https://i.imgur.com/kaUhEQy.png" group-title="Region · Mexico / Language · Spanish / Type · General",B15 Fresnillo (1080p)
 https://s5.mexside.net:1936/lsac/lsac/playlist.m3u8
 #EXTINF:-1 tvg-id="B15Zacatecas.mx@SD" tvg-logo="https://i.imgur.com/kaUhEQy.png" group-title="Region · Mexico / Language · Spanish / Type · General",B15 Zacatecas (1080p)
@@ -14855,7 +14865,7 @@ https://flash1.bogulus1.cfd/wild/usergenr9qsi5gt.m3u8
 https://onyx1.mofta1.cfd/nike/usergenm24qrnd.m3u8
 #EXTINF:-1 tvg-id="Nicktoons.ro@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d8/Nicktoons_UK_Logo_2014.png" group-title="Region · Other / Language · Other / Type · Other" http-referrer="https://cool-tv.net/",like Gecko) Chrome/130.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18" group-title="Romania",Nicktoons (Romania)
 https://atlantida1.aquax1.cfd/niktuun/usergendxt7r9CxGrnd.m3u8
-#EXTINF:-1 tvg-id="TimelessDiziChannel.ro@SD" tvg-logo="https://i.imgur.com/s3Sqd4L.png" group-title="Region · Other / Language · Other / Type · Other" http-referrer="https://cool-tv.net/",like Gecko) Chrome/130.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18" group-title="Romania",Timeless Dizi Channel (Romania)
+#EXTINF:-1 tvg-id="TimelessDiziChannel.ro@SD" tvg-logo="https://i.imgur.com/s3Sqd4L.png" group-title="Region · Other / Language · Other / Type · Other" http-referrer="https://cool-tv.net/",like Gecko) Chrome/130.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18" group-title="Romania",Timeless Dizi Channel
 https://atlantida1.aquax1.cfd/dizy/usergendlk0tas9c.m3u8
 #EXTINF:-1 tvg-id="TVPaprika.ro@SD" tvg-logo="https://i.imgur.com/3fuXBHT.png" group-title="Region · Other / Language · Other / Type · Other" http-referrer="https://cool-tv.net/",like Gecko) Chrome/130.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18" group-title="Romania",TV Paprika (Romania)
 https://galandriel1.thobias11.cfd/papi/usergendxs3jk0s9nd.m3u8
@@ -15257,6 +15267,10 @@ http://213.91.179.28:8000/play/a047
 http://213.91.179.28:8000/play/a05e
 #EXTINF:-1 tvg-id="FILMBOXPlusEmotion.pl@Bulgaria" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bemotion.png" group-title="Region · Other / Language · Other / Type · Other",like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Bulgaria",FILMBOX+ Emotion Bulgaria
 http://213.91.179.28:8000/play/a04r
+#EXTINF:-1 tvg-id="FILMBOXPlusLoveCrime.pl@Bulgaria" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Blove-and-crime.png" group-title="Region · Other / Language · Other / Type · Other",like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Bulgaria",FILMBOX+ Love & Crime Bulgaria
+http://213.91.179.28:8000/play/a066
+#EXTINF:-1 tvg-id="FILMBOXPlusOne.pl@Bulgaria" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bone.png" group-title="Region · Other / Language · Other / Type · Other",like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Bulgaria",FILMBOX+ One Bulgaria
+http://213.91.179.28:8000/play/a06i
 #EXTINF:-1 tvg-id="H2.bg@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/History2_logo_%282022%29.svg/500px-History2_logo_%282022%29.svg.png" group-title="Region · Other / Language · Other / Type · Other",like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Bulgaria",H2
 http://213.91.179.28:8000/play/a03r
 #EXTINF:-1 tvg-id="History.bg@SD" group-title="Region · Other / Language · Other / Type · Other",like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Bulgaria",History (Bulgaria)
@@ -15319,8 +15333,6 @@ http://99.27.51.147:8080/CineFrisson/index.m3u8
 http://85.14.32.26:8800/udp/239.100.10.144:5000
 #EXTINF:-1 tvg-id="Syfy.fr@SD" tvg-logo="https://i.imgur.com/gUOXdjv.png" group-title="Region · Other / Language · Other / Type · Other",like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="France",Syfy
 http://99.27.51.147:8080/SYFY/index.m3u8
-#EXTINF:-1 tvg-id="OstWest.de@SD" tvg-logo="https://i.imgur.com/nSQWo49.png" group-title="Region · Other / Language · Other / Type · Other",like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Germany",Ost West (576p)
-http://hls127.freeott.top:8080/OstWest/video.m3u8
 #EXTINF:-1 tvg-id="TVRUS.de@SD" tvg-logo="https://i.imgur.com/2mJKi7g.png" group-title="Region · Other / Language · Other / Type · Other",like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Germany",TVRUS
 http://213.91.179.28:8000/play/a082
 #EXTINF:-1 tvg-id="TVRUSPlus.de@HD" tvg-logo="https://www.lyngsat.com/logo/tv/tt/tv-rus-plus-de.png" group-title="Region · Other / Language · Other / Type · Other",like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Germany",TVRUS+
@@ -15585,8 +15597,6 @@ https://lb.iptvnetwork.net/ls28/10014/playlist.m3u8
 https://lb.iptvnetwork.net/ls28/10016/playlist.m3u8
 #EXTINF:-1 tvg-id="VTM.be@SD" tvg-logo="https://i.imgur.com/N3nwyDd.png" group-title="Region · Other / Language · Other / Type · Other",like Gecko) Chrome/154.0.0.0 Safari/537.36" group-title="Belgium",VTM (360p)
 https://lb.iptvnetwork.net/ls28/10033/playlist.m3u8
-#EXTINF:-1 tvg-id="VTM2.be@SD" tvg-logo="https://i.imgur.com/kYBHMlw.png" group-title="Region · Other / Language · Other / Type · Other",like Gecko) Chrome/154.0.0.0 Safari/537.36" group-title="Belgium",VTM 2 (360p)
-https://lb.iptvnetwork.net/ls28/10035/playlist.m3u8
 #EXTINF:-1 tvg-id="TVGuarapari.br@SD" tvg-logo="https://i.imgur.com/eDNzwK0.png" group-title="Region · Other / Language · Other / Type · Other" http-referrer="https://tvguarapari.com/",like Gecko) Chrome/154.0.0.0 Safari/537.36" group-title="Brazil",TV Guarapari (720p)
 https://video.welltecnologia.com.br/tvguarapari/tvguarapari/playlist.m3u8
 #EXTINF:-1 tvg-id="Nickelodeon.fr@SD" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="Region · Other / Language · Other / Type · Other",like Gecko) Chrome/154.0.0.0 Safari/537.36" group-title="France",Nickelodeon (France) (504p)
@@ -16123,8 +16133,6 @@ https://live.enhdtv.com:8081/8060/index.m3u8
 http://45.170.130.224:8000/play/a036/index.m3u8?hls
 #EXTINF:-1 tvg-id="Telefuturo.py@SD" tvg-logo="https://i.imgur.com/6lVrFvb.png" group-title="Region · Paraguay / Language · Spanish / Type · General" http-referrer="https://www.telefuturo.com.py",Telefuturo (Paraguay) (1080p)
 https://copacotf.desdeparaguay.net/telefuturo/telefuturo_py_alta/playlist.m3u8
-#EXTINF:-1 tvg-id="TigoSports.py@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Tigo_Sports_2025.png/960px-Tigo_Sports_2025.png" group-title="Region · Paraguay / Language · Spanish / Type · Sports",Tigo Sports (Paraguay)
-http://45.134.141.161:2200/ARG/Tigo_Sports/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Trece.py@SD" tvg-logo="https://i.imgur.com/cgIv5QK.png" group-title="Region · Paraguay / Language · Spanish / Type · General",Trece (Paraguay)
 http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/82.m3u8
 #EXTINF:-1 tvg-id="Tropicalia939FM.py@SD" tvg-logo="https://i.imgur.com/oMML5Ue.png" group-title="Region · Paraguay / Language · Spanish / Type · Music",Tropicalia 93.9 FM
@@ -16761,8 +16769,6 @@ https://tvregfull.mailfull.pl/tvregfull/memfs/e64b3e05-649c-4939-9ff6-584e79285c
 https://srv1.streamingo.pl/memfs/be50f17e-6579-4bdf-86b1-31207aec85b8.m3u8
 #EXTINF:-1 tvg-id="ThePetCollective.us@Poland" tvg-logo="https://i.imgur.com/yH7n2dF.png" group-title="Region · Poland / Language · English / Type · Family",The Pet Collective Poland (720p)
 https://6ec8627d.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1RoZVBldENvbGxlY3RpdmVfSExT/playlist.m3u8
-#EXTINF:-1 tvg-id="TimelessDiziChannel.pl@SD" tvg-logo="https://i.imgur.com/s3Sqd4L.png" group-title="Region · Poland / Language · Polish / Language · Turkish / Type · Undefined",Timeless Dizi Channel (Poland) (1080p)
-http://hls127.freeott.top:8080/BG_Dizi_HD/video.m3u8
 #EXTINF:-1 tvg-id="TNAWrestlingChannel.pl@SD" tvg-logo="https://provider-static.plex.tv/epg/cms/production/5d4f68c3-82af-45e7-b2c4-39aff69f3ce0/TNAWrestling_Plex_LogoforDarkBG_1500x1000_-_Alex_TushinghamRDX.png" group-title="Region · Poland / Language · English / Type · Undefined",TNA Wrestling Channel (720p)
 https://jmp2.uk/plu-59b722526996084038c01e1b.m3u8
 #EXTINF:-1 tvg-id="TOPBarca.pl@SD" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/7c59e962-086b-4d64-afb3-7f83ca8c3377-width200-quality90.jpeg" group-title="Region · Poland / Language · English / Type · Undefined",TOP Barca (1080p)
@@ -17049,6 +17055,8 @@ https://live4dai.antenaplay.ro/live2_sdi09/live2_sdi09_600k.m3u8
 https://stream1.antenaplay.ro/as/AS.ro/chunklist.m3u8
 #EXTINF:-1 tvg-id="ArgesTV.ro@SD" tvg-logo="https://i.imgur.com/qufz6nk.png" group-title="Region · Romania / Language · Romanian / Type · General",Arges TV (720p)
 https://btutzctahuf0wjoq.cdn.streamingserver.io/hls/yjvam8hlp2g3u08z02tv0yz66rq3cy.m3u8
+#EXTINF:-1 tvg-id="ASTV.ro@SD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/1d/AS_TV_2025.png/revision/latest?cb=20250412121320" group-title="Region · Romania / Language · Romanian / Type · General",AS TV (Romania) (576p)
+https://s2.netstreaming.eu/astv.m3u8
 #EXTINF:-1 tvg-id="AsiaExpressNonStop.ro@SD" tvg-logo="https://assets.antenaplay.ro/2026/08/25/00keSCoSw0EaWnICcuYB.png" group-title="Region · Romania / Language · Romanian / Type · Entertainment",Asia Express NonStop (576i)
 https://live4dai.antenaplay.ro/live2_sport05/live2_sport05_600k.m3u8
 #EXTINF:-1 tvg-id="AtomicAcademyTV.ro@SD" tvg-logo="https://i.imgur.com/ZbrDIbZ.png" group-title="Region · Romania / Language · Romanian / Type · Music",Atomic Academy TV (480p)
@@ -17237,10 +17245,14 @@ https://rotv.romediavalencia.com:3839/live/rotvlive.m3u8
 https://651c69fa2ff4e.streamlock.net/3707/live1/chunklist.m3u8
 #EXTINF:-1 tvg-id="SangeorzTV.ro@SD" tvg-logo="https://sangeorztv.ro/wp-content/uploads/2025/12/sangeorz-tv-3.png" group-title="Region · Romania / Language · Romanian / Type · Undefined",Sangeorz TV (576p)
 https://live.sangeorztv.ro:8443/live/index.m3u8?cookieCheck=1
+#EXTINF:-1 tvg-id="SensTV.ro@SD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a9/Sens_TV.png/revision/latest?cb=20231211141523" group-title="Region · Romania / Language · Romanian / Type · General",Sens TV (576i)
+https://live.senstv.ro/live/senstv_1080p/chunklist.m3u8
 #EXTINF:-1 tvg-id="SmartRadio.ro@SD" tvg-logo="https://www.smartradio.ro/wp-content/themes/smart-radio/img/Logo_SmartRadio.png" group-title="Region · Romania / Language · English / Language · Romanian / Type · Music",Smart Radio (576p)
 https://streamw.m.ro/Regie/radio.stream/chunklist.m3u8
 #EXTINF:-1 tvg-id="SperantaTV.ro@SD" tvg-logo="https://i.imgur.com/KUyqQCX.png" group-title="Region · Romania / Language · Romanian / Type · Religious",SperantaTV (1080p)
 https://jstre.am/live/jsl:2gNjpghXRLE.m3u8
+#EXTINF:-1 tvg-id="SportTotalFM.ro@SD" tvg-logo="https://sptfm.ro/wp-content/uploads/2021/05/logo-sport-total-fm-01.png" group-title="Region · Romania / Language · Romanian / Type · Sports",Sport Total FM (576i)
+https://livesptfm.com/SPTFM/Live/playlist.m3u8
 #EXTINF:-1 tvg-id="SuperTV.ro@SD" tvg-logo="https://i.imgur.com/pzxUE0O.png" group-title="Region · Romania / Language · Romanian / Type · Music",Super TV (Romania) (576p)
 http://iptv.supertv.ro:8000/play/a001/index.m3u8
 #EXTINF:-1 tvg-id="TarafTV.ro@SD" tvg-logo="https://i.imgur.com/0iuwjbK.png" group-title="Region · Romania / Language · Romanian / Type · Undefined",Taraf TV (576p)
@@ -17514,9 +17526,9 @@ http://31.148.48.15/Europa_Plus_HD/index.m3u8
 #EXTINF:-1 tvg-id="EuropaPlusTV.ru@Belarus" tvg-logo="https://i.imgur.com/GLc4qrc.png" group-title="Region · Russia / Language · Russian / Type · Music",Europa Plus TV Belarus (576p)
 http://46.53.200.153:7777/play/EuropaPlus/index.m3u8
 #EXTINF:-1 tvg-id="Eurosport1.fr@Russia" tvg-logo="https://i.imgur.com/olQJgm7.png" group-title="Region · Russia / Language · Russian / Type · Sports",Eurosport 1 Russia (1080p)
-http://stream.mcquack.net/176/index.m3u8
+https://s7.iptv-24.net/1439/playlist.m3u8
 #EXTINF:-1 tvg-id="Eurosport2.fr@Russia" tvg-logo="https://i.imgur.com/f56dHgR.png" group-title="Region · Russia / Language · Russian / Type · Sports",Eurosport 2 Russia (1080p)
-http://stream.mcquack.net/192/index.m3u8
+https://s7.iptv-24.net/1452/playlist.m3u8
 #EXTINF:-1 tvg-id="Evrokino.ru@SD" tvg-logo="https://i.imgur.com/8LPtPf6.png" group-title="Region · Russia / Language · Russian / Type · Movies",Evrokino (576p)
 https://fs.uplink.kz/eurokino/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="Evrokino.ru@HD" tvg-logo="https://i.imgur.com/8LPtPf6.png" group-title="Region · Russia / Language · Russian / Type · Movies",Evrokino HD (1080p)
@@ -17803,8 +17815,6 @@ http://stream.mcquack.net/60/index.m3u8
 http://88.212.15.50/live/test_telekanal_o/playlist.m3u8
 #EXTINF:-1 tvg-id="o2tv.ru@SD" tvg-logo="https://i.imgur.com/CM6z7fA.png" group-title="Region · Russia / Language · Russian / Type · Music",o2tv (720p)
 http://31.148.48.15/O2_HD/index.m3u8
-#EXTINF:-1 tvg-id="OceanTV.ru@SD" tvg-logo="https://i.imgur.com/zswzDZS.png" group-title="Region · Russia / Language · Russian / Type · Undefined",Ocean-TV (576p)
-http://hls127.freeott.top:8080/Ocean_TV/video.m3u8
 #EXTINF:-1 tvg-id="Ohotnikirybolov.ru@SD" tvg-logo="https://i.imgur.com/Bj1jI7F.png" group-title="Region · Russia / Language · Russian / Type · Outdoor",Ohotnik i rybolov (576i)
 https://stream8.cinerama.uz/1413/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Ohotnikirybolov.ru@HD" tvg-logo="https://i.imgur.com/Bj1jI7F.png" group-title="Region · Russia / Language · Russian / Type · Outdoor",Ohotnik i rybolov HD (1080p)
@@ -17870,7 +17880,7 @@ http://chanson-video.hostingradio.ru:8080/hls/chansonabr/live.m3u8
 #EXTINF:-1 tvg-id="RadostMoya.ru@SD" tvg-logo="https://i.imgur.com/B5FA62o.png" group-title="Region · Russia / Language · Russian / Type · Kids",Radost Moya (576p)
 http://31.148.48.15/Radost_moya/index.m3u8
 #EXTINF:-1 tvg-id="RBKTV.ru@SD" tvg-logo="https://i.imgur.com/CwhmJby.png" group-title="Region · Russia / Language · Russian / Type · Business",RBK-TV (576p)
-http://hls127.freeott.top:8080/RBK/video.m3u8
+https://uiptv.do.am/1ufc/701293058/playlist.m3u8
 #EXTINF:-1 tvg-id="RedLine.ru@SD" tvg-logo="https://i.imgur.com/TgZ8Uv1.png" group-title="Region · Russia / Language · Russian / Type · Undefined",Red Line (480p)
 http://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/index.m3u8
 #EXTINF:-1 tvg-id="RENTV.ru@SD" tvg-logo="https://i.imgur.com/0Tu5lte.png" group-title="Region · Russia / Language · Russian / Type · General",REN TV (576p)
@@ -17971,8 +17981,6 @@ https://cdn-dvr.ntv.ru/Shef/index.m3u8
 http://stream.mcquack.net/75/index.m3u8
 #EXTINF:-1 tvg-id="ShoppingLive.ru@SD" tvg-logo="https://i.imgur.com/EMmGnjV.png" group-title="Region · Russia / Language · Russian / Type · Shop",Shopping Live (720p)
 https://nonmirya7cc.a.trbcdn.net/livemaster/tzrz5_sazlypl5ot.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="ShotTV.ru@SD" tvg-logo="https://i.imgur.com/MLSG7tA.png" group-title="Region · Russia / Language · Russian / Type · Movies",Shot TV (576p)
-http://hls127.freeott.top:8080/SHOT_TV/video.m3u8
 #EXTINF:-1 tvg-id="Sibir24.ru@NVS" tvg-logo="https://i.imgur.com/jgwQPl0.png" group-title="Region · Russia / Language · Russian / Type · General",Sibir 24 (1080p)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/novosibirsk/sibir24-hd/index.m3u8
 #EXTINF:-1 tvg-id="Sibir24.ru@KYA" tvg-logo="https://i.imgur.com/jgwQPl0.png" group-title="Region · Russia / Language · Russian / Type · General",Sibir 24 KYA (1080p)
@@ -18044,7 +18052,7 @@ https://bsttv.bonus-tv.ru/cdn/tamyr/playlist.m3u8
 #EXTINF:-1 tvg-id="Tavriya.ru@SD" tvg-logo="https://i.imgur.com/gqung6i.png" group-title="Region · Russia / Region · Ukraine / Language · Russian / Type · General",Tavriya
 https://streaming.televizor-24-tochka.ru/live/24.m3u8
 #EXTINF:-1 tvg-id="Teatr.ru@SD" tvg-logo="https://i.imgur.com/nc2ijCH.png" group-title="Region · Russia / Language · Russian / Type · Culture",Teatr (576p)
-http://hls127.freeott.top:8080/Teatr/video.m3u8
+http://31.148.48.15/Sochi_HD/index.m3u8
 #EXTINF:-1 tvg-id="TeleDom.ru@SD" tvg-logo="https://i.imgur.com/071JRrb.png" group-title="Region · Russia / Language · Russian / Type · Undefined",TeleDom
 https://iam-profi.ru/hls-live/livepkgr/_definst_/liveevent/td720.m3u8
 #EXTINF:-1 tvg-id="TelekanalKrasnodar.ru@HD" tvg-logo="https://i.imgur.com/YVtutzp.png" group-title="Region · Russia / Language · Russian / Type · General",Telekanal Krasnodar (1080p)
@@ -18081,8 +18089,6 @@ http://live-tolknews.cdnvideo.ru/tolknews/stream/playlist.m3u8
 http://194.143.148.28:8080/Mir24/index.m3u8
 #EXTINF:-1 tvg-id="Tooku.ru@SD" tvg-logo="https://tooku.ru/wp-content/uploads/2024/11/tooku-kanal-logo.png" group-title="Region · Russia / Language · Russian / Type · Animation / Type · Kids",Tooku (1080p)
 http://live-saha.cdnvideo.ru/saha/tooky/playlist.m3u8
-#EXTINF:-1 tvg-id="TopSecret.ru@SD" tvg-logo="https://i.imgur.com/HM4xy4G.png" group-title="Region · Russia / Language · Russian / Type · Documentary",Top Secret (576p)
-http://hls127.freeott.top:8080/Sovershenno_Sekretno/video.m3u8
 #EXTINF:-1 tvg-id="TraceSportStars.fr@Russia" tvg-logo="https://i.imgur.com/FabFP5A.png" group-title="Region · Russia / Language · Russian / Type · Sports",Trace Sport Stars Russia (720p)
 https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="TravelChannel.ru@SD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/82/Travel_Channel_International.svg/revision/latest?cb=20191226223708" group-title="Region · Russia / Language · Russian / Type · Undefined",Travel Channel (Russia) (1080p)
@@ -18100,7 +18106,7 @@ http://stream.mcquack.net/152/index.m3u8
 #EXTINF:-1 tvg-id="TVBRICSRussian.ru@SD" tvg-logo="https://i.imgur.com/vLpm8tN.png" group-title="Region · Russia / Language · Russian / Type · General",TV BRICS Russian (1080p)
 http://185.23.80.23:8080/TVBRICS/index.m3u8
 #EXTINF:-1 tvg-id="TVCentr.ru@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/72/TV_Tsentr_2013_Logo.svg" group-title="Region · Russia / Language · Russian / Type · Undefined",TV Centr (576p)
-http://hls127.freeott.top:8080/Tv_Center/video.m3u8
+http://185.71.81.6:8080/10/index.m3u8
 #EXTINF:-1 tvg-id="TVCentrInternational.ru@SD" tvg-logo="https://i.imgur.com/tsCOnBW.png" group-title="Region · Russia / Language · Russian / Type · Undefined",TV Centr International (576p)
 https://stream8.cinerama.uz/1281/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="TVPRO.ru@SD" tvg-logo="https://i.imgur.com/sbuSefI.png" group-title="Region · Russia / Language · Russian / Type · Undefined",TV PRO
@@ -19713,6 +19719,8 @@ http://125.227.210.55:4050/VideoInput/play.ts
 https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/playlist.m3u8
 #EXTINF:-1 tvg-id="CGNTVChinese.tw@SD" tvg-logo="https://i.imgur.com/bPoPAbR.png" group-title="Region · Taiwan / Language · Chinese / Type · Religious",CGNTV Chinese (1080p)
 https://d3e05csss9c272.cloudfront.net/out/v1/f0bf71c57581470fb9379f603e8f5d83/CGNWebLiveCN.m3u8
+#EXTINF:-1 tvg-id="CinemaxAsia.sg@Taiwan" tvg-logo="https://i.imgur.com/c8crJfA.png" group-title="Region · Taiwan / Language · English / Language · Mandarin Chinese / Type · Movies",Cinemax Asia Taiwan (1080p)
+http://125.227.210.55:1001/VideoInput/play.ts
 #EXTINF:-1 tvg-id="CTiVariety.tw@SD" tvg-logo="https://i.imgur.com/tqsKObw.png" group-title="Region · Taiwan / Language · Chinese / Type · General",CTi Variety (720p)
 http://23.237.10.66:16372
 #EXTINF:-1 tvg-id="CTSNews.tw@SD" tvg-logo="https://i.imgur.com/V1EVtRm.png" group-title="Region · Taiwan / Language · Chinese / Type · News",CTS News [Geo-blocked]
@@ -20011,7 +20019,7 @@ https://edge1.socialsmart.tv/altastv/bant1/playlist.m3u8
 https://live.artidijitalmedya.com/artidijital_anadolunet/anadolunet/playlist.m3u8
 #EXTINF:-1 tvg-id="ArasTV.tr@SD" tvg-logo="https://i.imgur.com/JsDCyWG.png" group-title="Region · Turkiye / Language · Turkish / Type · General",Aras TV (576p) [Not 24/7]
 http://1.rtmp.org/tv217/yayin.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="ASTV.tr@SD" tvg-logo="https://asset.artidijitalmedya.com/image/188x188/channels/v1/logo_13.png" group-title="Region · Turkiye / Language · Turkish / Type · News",AS TV (900p)
+#EXTINF:-1 tvg-id="ASTV.tr@SD" tvg-logo="https://asset.artidijitalmedya.com/image/188x188/channels/v1/logo_13.png" group-title="Region · Turkiye / Language · Turkish / Type · News",AS TV (Turkiye) (900p)
 https://live.artidijitalmedya.com/artidijital_astv/astv/playlist.m3u8
 #EXTINF:-1 tvg-id="ATV.tr@SD" tvg-logo="https://i.imgur.com/HyVUwFC.png" group-title="Region · Turkiye / Language · Turkish / Type · General",ATV (Turkiye) (1080p)
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8
@@ -21865,6 +21873,8 @@ https://media.streambrothers.com:1936/8276/8276/playlist.m3u8
 http://212.5.144.156:8080/discovery/index.m3u8
 #EXTINF:-1 tvg-id="DiscoveryTurbo.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Discovery_Turbo_2025.svg/1920px-Discovery_Turbo_2025.svg.png" group-title="Region · United States / Language · English / Type · Auto",Discovery Turbo (United States) (720p)
 http://41.205.93.154/ESPNNEWS/index.m3u8
+#EXTINF:-1 tvg-id="DisneyChannel.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/2024_Disney_Channel_text_logo.svg/960px-2024_Disney_Channel_text_logo.svg.png" group-title="Region · United States / Language · English / Language · Spanish / Type · Kids",Disney Channel (United States) (720p)
+http://4.30.180.36:8420/disneychannel/index.m3u8?token=test
 #EXTINF:-1 tvg-id="DisneyJunior.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/2024_Disney_Jr._Logo.svg/960px-2024_Disney_Jr._Logo.svg.png" group-title="Region · United States / Language · English / Language · Spanish / Type · Kids",Disney Junior (United States) (480p)
 http://tvsen5.aynascope.net/disney/index.m3u8
 #EXTINF:-1 tvg-id="DisneyXD.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/2015_Disney_XD_logo.svg/960px-2015_Disney_XD_logo.svg.png" group-title="Region · United States / Language · English / Language · Spanish / Type · Kids",Disney XD (United States) (720p)
@@ -23443,8 +23453,6 @@ https://d37kx062o4ii0p.cloudfront.net/master.m3u8
 http://api.toonamiaftermath.com:3000/est/playlist.m3u8
 #EXTINF:-1 tvg-id="ToonamiAftermath.us@West" tvg-logo="https://i.imgur.com/aSjhZK7.png" group-title="Region · United States / Language · English / Type · Animation",Toonami Aftermath West (480p)
 http://api.toonamiaftermath.com:3000/pst/playlist.m3u8
-#EXTINF:-1 tvg-id="Tooncast.us@SD" tvg-logo="https://i.imgur.com/3yXRbQy.png" group-title="Region · United States / Language · English / Language · Portuguese / Language · Spanish / Type · Animation / Type · Kids",Tooncast (1080p)
-http://38.134.250.110:8000/play/a01t/index.m3u8
 #EXTINF:-1 tvg-id="TopStoriesbyNewsy.us@SD" tvg-logo="https://i.imgur.com/UfN6aAi.png" group-title="Region · United States / Language · English / Type · News",Top Stories by Newsy (720p)
 https://content.uplynk.com/channel/33c48f602cfd4474b957eb4ad999caf8.m3u8
 #EXTINF:-1 tvg-id="Tosh0.us@SD" tvg-logo="https://i.imgur.com/sXkluxg.png" group-title="Region · United States / Language · English / Type · Series",Tosh.0 (United States)
